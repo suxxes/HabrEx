@@ -1,0 +1,10 @@
+<script type="text/javascript" charset="utf-8">
+    // Message Event Listener
+    safari.application.addEventListener('message', function(e) {
+        if ('getSettings' == e.name) {
+            safari.application.activeBrowserWindow.activeTab.page.dispatchMessage('returnSettings', {
+                paginate: safari.extension.settings.paginate                
+            });
+        }     
+    }, false);
+</script>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>unno</string>
+	<key>CFBundleDisplayName</key>
+	<string>Habrex</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.unno.habrex</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.3.8</string>
+	<key>CFBundleVersion</key>
+	<string>1.3.8</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Bars</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>toolbar/index.html</string>
+				<key>Identifier</key>
+				<string>toolbar</string>
+				<key>Label</key>
+				<string>Панель инструментов Habrex</string>
+			</dict>
+		</array>
+		<key>Global Page</key>
+		<string>common/index.html</string>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>toggleToolbar</string>
+				<key>Identifier</key>
+				<string>toggleToolbar</string>
+				<key>Image</key>
+				<string>Icon-16.png</string>
+				<key>Label</key>
+				<string>Панель инструментов Habrex</string>
+				<key>Palette Label</key>
+				<string>Панель инструментов Habrex</string>
+				<key>Tool Tip</key>
+				<string>Скрыть/Отобразить панель инструментов Habrex</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict>
+			<key>End</key>
+			<array>
+				<string>common/jquery.js</string>
+				<string>common/settings.js</string>
+				<string>extensions/forms.js</string>
+				<string>extensions/pagination.js</string>
+			</array>
+		</dict>
+	</dict>
+	<key>Description</key>
+	<string>Панель инструментов для сайта Habrahabr</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Allowed Domains</key>
+			<array>
+				<string>habrahabr.ru</string>
+				<string>*.habrahabr.ru</string>
+			</array>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>Some</string>
+		</dict>
+	</dict>
+	<key>Update Manifest URL</key>
+	<string>http://unno.ru/habrex/updates.plist</string>
+	<key>Website</key>
+	<string>http://unno.ru/habrex</string>
+</dict>
+</plist>

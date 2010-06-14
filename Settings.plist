@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>DefaultValue</key>
+		<string></string>
+		<key>FalseValue</key>
+		<false/>
+		<key>Key</key>
+		<string>username</string>
+		<key>Title</key>
+		<string>Имя пользователя</string>
+		<key>TrueValue</key>
+		<true/>
+		<key>Type</key>
+		<string>TextField</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<real>2</real>
+		<key>Key</key>
+		<string>interval</string>
+		<key>Title</key>
+		<string>Частота обновления</string>
+		<key>Titles</key>
+		<array>
+			<string>2 минуты</string>
+			<string>5 минут</string>
+			<string>10 минут</string>
+			<string>15 минут</string>
+			<string>30 минут</string>
+			<string>60 минут</string>
+		</array>
+		<key>Type</key>
+		<string>PopUpButton</string>
+		<key>Values</key>
+		<array>
+			<real>2</real>
+			<real>5</real>
+			<real>10</real>
+			<real>15</real>
+			<real>30</real>
+			<real>60</real>
+		</array>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>visible</string>
+		<key>Title</key>
+		<string>Отображать панель инструментов</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>paginate</string>
+		<key>Title</key>
+		<string>Подгружать следующие страницы</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>Title</key>
+		<string>Отображать на панели инструментов</string>
+		<key>Type</key>
+		<string>Group</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>toolbarRating</string>
+		<key>Title</key>
+		<string>Хабрасилу</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>toolbarPosition</string>
+		<key>Title</key>
+		<string>Позицию в рейтинге</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+	<dict>
+		<key>DefaultValue</key>
+		<true/>
+		<key>Key</key>
+		<string>toolbarTopic</string>
+		<key>Title</key>
+		<string>Информацию о последнем топике</string>
+		<key>Type</key>
+		<string>CheckBox</string>
+	</dict>
+</array>
+</plist>

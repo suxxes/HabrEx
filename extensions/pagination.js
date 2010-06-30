@@ -6,7 +6,7 @@ $(document).bind('scroll', function (e) {
     safari.self.tab.dispatchMessage('getSettings');
 
     if (true == extSettings.paginate && 0 < $('.page-nav .next').length && 0 < $('.hentry').length) {
-        if ($(document).scrollTop() + 500 > $('.page-nav .next').offset().top) {
+        if ($(document).scrollTop() + 1000 > $('.page-nav .next').offset().top) {
             var href = $('.page-nav .next').attr('href');
 
             if (false == loading) {
@@ -33,6 +33,6 @@ $(document).bind('scroll', function (e) {
     }
 });
 
-if ($('.page-nav .next') && $(document).scrollTop() + 500 > $('.page-nav .next').offset().top) {
+if ($('.page-nav .next') && $(document).scrollTop() + 1000 > $('.page-nav .next').offset().top) {
     $(document).trigger('scroll');
 }
